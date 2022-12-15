@@ -13,8 +13,8 @@ spec:
           app: devops
       spec:
         containers:
-          - name: devops
-            image: sachindavra/dev-demo
-            imagePullPolicy: Always
-            ports:
-            - containerPorts: 80
+        - name: devops
+          image: sachindavra/dev-demo
+          imagePullPolicy: Always
+          ports:
+          - containerPorts: 80
