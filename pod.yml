@@ -8,4 +8,4 @@ spec:
     image: sachindavra/dev-demo
     imagePullPolicy: Always
     ports:
-    - containerPorts: 80
+    - containerPort: 80
