@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: devops
+spec:
+  containers:
+  - name: devops
+    image: sachindavra/dev-demo
+    imagePullPolicy: Always
+    ports:
+    - containerPorts: 80
