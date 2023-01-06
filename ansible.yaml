@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: _Master_node
   tasks:
     - name: "create new deployment"
       command: kubectl apply -f /home/ubuntu/pod.yml
